@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+body{
+  padding-top:40px ;
+  background-color: #469af3;
+  color: white;
+}
+
+.heading{
+  font-size: 45px;
+}
+
+input{
+  height: 30px;
+  padding: 0px 20px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+.addTask, .removeTask, .completeTask{
+  height: 33px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0px 10px;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.allTasks{
+margin-top: 40px;
+}
+
+.list{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+}
+
+.task{
+  margin-right: 20px;
+}
+
