@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Routes, BrowserRouter as Router, Link } from 'react-router-dom';
 import { Home } from './Pages/Home';
 import { Login } from './Pages/Login';
 import { Contact } from './Pages/Contact';
@@ -12,6 +12,9 @@ function App() {
     <div className="App">
       <Provider store={store}>
       <Router>
+        <Link to='/'>Home</Link>
+        <Link to='/login'>Login</Link>
+        <Link to='/contact'>Contact</Link>
         <Routes>
           <Route path='/' element={ <Home /> }/>
           <Route path='/login' element= { <Login/> }/>
